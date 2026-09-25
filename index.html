@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Chuyên đề dựng cảnh 3D từ ảnh</title>
+  <link rel="stylesheet" href="index-pages.css"/>
+  <link rel="stylesheet" href="material-index.css"/>
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero">
+      <p class="eyebrow">Seminar nhóm nghiên cứu tái tạo 3D · Tháng 9/2026</p>
+      <h1>Chuyên đề dựng cảnh 3D từ ảnh</h1>
+      <div class="hero-text">
+        <p>Năm bộ trang chiếu RevealJS về NeRF, NeuS, Plenoxels, 3D Gaussian Splatting và Radiant Foam. Mỗi bộ gồm giới thiệu, chi tiết thuật toán, thí nghiệm và benchmark, ảnh kết quả, và các tồn tại dựa trên paper gốc cùng báo cáo nội bộ của nhóm.</p>
+      </div>
+      <figure style="margin:1.5rem 0 0"><img src="img/overview.svg" alt="Năm biểu diễn cảnh 3D: NeRF, NeuS, Plenoxels, 3DGS, RadFoam" style="width:100%;max-width:960px;display:block"/></figure>
+    </section>
+
+    <section>
+      <h2 class="section-title">Chuyên đề</h2>
+      <div class="term-grid">
+        <article class="term-card">
+          <div>
+            <span class="term-label">Chuyên đề 01</span>
+            <h2>NeRF: Trường bức xạ nơ-ron</h2>
+            <p>MLP biểu diễn mật độ và màu; kết xuất thể tích, mã hóa vị trí, lấy mẫu phân cấp; benchmark Blender và LLFF; chi phí huấn luyện và kết xuất.</p>
+          </div>
+          <div class="resource-actions" role="group" aria-label="Tài nguyên chuyên đề 01">
+            <div class="resource-item"><span class="resource-label">Trang chiếu</span><a class="term-link" href="01-nerf.html">Mở</a></div>
+          </div>
+        </article>
+        <article class="term-card">
+          <div>
+            <span class="term-label">Chuyên đề 02</span>
+            <h2>NeuS: Bề mặt ẩn qua kết xuất thể tích</h2>
+            <p>SDF nơ-ron, mật độ mờ đục không lệch, Chamfer trên DTU, ablation; tái chạy mã nguồn chính thức trên RTX 2060.</p>
+          </div>
+          <div class="resource-actions" role="group" aria-label="Tài nguyên chuyên đề 02">
+            <div class="resource-item"><span class="resource-label">Trang chiếu</span><a class="term-link" href="02-neus.html">Mở</a></div>
+          </div>
+        </article>
+        <article class="term-card">
+          <div>
+            <span class="term-label">Chuyên đề 03</span>
+            <h2>Plenoxels: Trường bức xạ không cần mạng nơ-ron</h2>
+            <p>Lưới voxel thưa với hệ số SH, nội suy ba tuyến tính, TV và RMSProp, thô đến mịn; benchmark ba loại cảnh và ablation; tái chạy svox2 trên RTX 2060; bộ nhớ và chất lượng cảnh thật.</p>
+          </div>
+          <div class="resource-actions" role="group" aria-label="Tài nguyên chuyên đề 03">
+            <div class="resource-item"><span class="resource-label">Trang chiếu</span><a class="term-link" href="03-plenoxels.html">Mở</a></div>
+          </div>
+        </article>
+        <article class="term-card">
+          <div>
+            <span class="term-label">Chuyên đề 04</span>
+            <h2>3D Gaussian Splatting</h2>
+            <p>Gaussian bất đẳng hướng, chiếu EWA, điều khiển mật độ, rasterizer theo ô; ba bộ dữ liệu thật và ablation; popping, bộ nhớ, hình học.</p>
+          </div>
+          <div class="resource-actions" role="group" aria-label="Tài nguyên chuyên đề 04">
+            <div class="resource-item"><span class="resource-label">Trang chiếu</span><a class="term-link" href="04-gaussian-splatting.html">Mở</a></div>
+          </div>
+        </article>
+        <article class="term-card">
+          <div>
+            <span class="term-label">Chuyên đề 05</span>
+            <h2>Radiant Foam: Dò tia trên bọt Voronoi</h2>
+            <p>Tích phân chính xác trên phân hoạch Voronoi, đi qua ô, gradient theo site; tái đánh giá 7 cảnh cục bộ; vì sao huấn luyện chậm và giới hạn bề mặt.</p>
+          </div>
+          <div class="resource-actions" role="group" aria-label="Tài nguyên chuyên đề 05">
+            <div class="resource-item"><span class="resource-label">Trang chiếu</span><a class="term-link" href="05-radfoam.html">Mở</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <p class="footer">Chuyên đề dựng cảnh 3D từ ảnh · Nhấn S trong trang chiếu để mở ghi chú người nói</p>
+  </main>
+</body>
+</html>
